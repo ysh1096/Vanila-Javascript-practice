@@ -1,0 +1,40 @@
+:root {
+  --spacing: 10px;
+  --blur: 10px;
+  --base: #ffc600;
+}
+
+* {
+  box-sizing: content-box;
+  margin: 0;
+}
+
+body {
+  font-family: 'Kufam', cursive;
+  text-align: center;
+  padding: 30px;
+  font-size: 3rem;
+  background-color: #262626;
+  color: white;
+}
+
+.controls {
+  margin-bottom: 50px;
+}
+.hl {
+  color: var(--base);
+}
+
+h2 {
+  margin: 30px 0;
+}
+
+input {
+  width: 100px;
+}
+
+img {
+  padding: var(--spacing);
+  background: var(--base);
+  filter: blur(var(--blur));
+}
